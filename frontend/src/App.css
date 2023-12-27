@@ -1,0 +1,16 @@
+.addnote{
+        color:white;
+        font-weight: 500;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #3e8ed0;
+        border: none;
+}
+
+.addnote:hover{
+    color:white;
+    background-color: #3e8ed0;
+}
+

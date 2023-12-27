@@ -1,0 +1,72 @@
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 93px;
+}
+
+.subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.intro-text {
+    width: 100%;
+    text-align: center;
+}
+
+.main {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    /* background-image: url("../images/background.jpg"); */
+    background-color: rgb(105, 205, 232);
+    background-position: center;
+    background-size: cover;
+}
+
+.buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landingbutton {
+    width: 170px;
+    height: 55px;
+}
+
+.lbtwobg {
+    color: white;
+    border-color: #0bd942;
+    background-color: #0bd942;
+}
+
+.lbtwobg:hover {
+    background-color: #20c54c;
+    border-color: #20c54c;
+}
+
+.clicked {
+    background-color: #20c54c;
+    border-color: #20c54c;
+}
+
+@media only screen and (min-width: 1200px) {
+    .buttonContainer {
+        padding: 0 200px;
+    }
+
+    .title {
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .landingbutton {
+        width: 150px;
+        height: 50px;
+    }
+}
